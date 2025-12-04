@@ -1,0 +1,36 @@
+# FastAPI y servidor
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+python-multipart==0.0.6
+
+# Supabase
+supabase==2.3.4
+postgrest==0.13.2
+supafunc==0.3.1
+
+# Firebase Admin SDK
+firebase-admin==6.4.0
+
+# Utilidades
+python-dotenv==1.0.0
+pydantic==2.5.3
+pydantic-settings==2.1.0
+
+# Seguridad
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+
+# HTTP requests (Fijo a la versión compatible)
+httpx==0.24.1
+httpcore==0.17.3
+h11==0.14.0
+
+# Fechas
+python-dateutil==2.8.2
+
+# CORS
+fastapi-cors==0.0.6
+
+#pip install "pydantic[email]"
+#pip install --upgrade supabase httpx
+#pip install websockets==13.0
